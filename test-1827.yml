@@ -1,0 +1,6 @@
+---
+- hosts: all
+  roles:
+    - yatesr.timezone
+  vars:
+    timezone: Europe/Berlin
